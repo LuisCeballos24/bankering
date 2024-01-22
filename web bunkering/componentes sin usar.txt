@@ -1,0 +1,122 @@
+GUIA DE PAGINA https://thehawks.biz/bunkering
+
+
+// App.js
+import React from 'react';
+import Header from './Header';
+import HeroSection from './HeroSection';
+import PetShopSection from './PetShopSection';
+import ServicesSection from './ServicesSection';
+import LocationSection from './LocationSection';
+import Footer from './Footer';
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <HeroSection />
+      <PetShopSection />
+      <ServicesSection />
+      <LocationSection />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+Header Component (Header.js):
+Contendrá la sección del encabezado.
+jsx
+Copy code
+// Header.js
+import React from 'react';
+
+function Header() {
+  return (
+    <header>
+      {/* Contenido del encabezado */}
+    </header>
+  );
+}
+
+export default Header;
+HeroSection Component (HeroSection.js):
+Contendrá la sección del héroe.
+jsx
+Copy code
+// HeroSection.js
+import React from 'react';
+
+function HeroSection() {
+  return (
+    <section className="hero">
+      {/* Contenido de la sección del héroe */}
+    </section>
+  );
+}
+
+export default HeroSection;
+PetShopSection Component (PetShopSection.js):
+Contendrá la sección de la tienda de mascotas.
+jsx
+Copy code
+// PetShopSection.js
+import React from 'react';
+
+function PetShopSection() {
+  return (
+    <section>
+      {/* Contenido de la sección de la tienda de mascotas */}
+    </section>
+  );
+}
+
+export default PetShopSection;
+ServicesSection Component (ServicesSection.js):
+Contendrá la sección de servicios.
+jsx
+Copy code
+// ServicesSection.js
+import React from 'react';
+
+function ServicesSection() {
+  return (
+    <section>
+      {/* Contenido de la sección de servicios */}
+    </section>
+  );
+}
+
+export default ServicesSection;
+LocationSection Component (LocationSection.js):
+Contendrá la sección de ubicación y horas.
+jsx
+Copy code
+// LocationSection.js
+import React from 'react';
+
+function LocationSection() {
+  return (
+    <section id="locate">
+      {/* Contenido de la sección de ubicación y horas */}
+    </section>
+  );
+}
+
+export default LocationSection;
+Footer Component (Footer.js):
+Contendrá la sección del pie de página.
+jsx
+Copy code
+// Footer.js
+import React from 'react';
+
+function Footer() {
+  return (
+    <footer>
+      {/* Contenido del pie de página */}
+    </footer>
+  );
+}
+
+export default Footer;
