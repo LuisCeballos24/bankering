@@ -1,18 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';  // Importa BrowserRouter
-import Header from './components/header';
-import Main from './components/main';
-import Footer from './components/footer';
+import Header from './components/Header.jsx';
+import HeroSection from './components/HeroSection';
+import PetShopSection from './components/PetShopSection';
+import ServicesSection from './components/ServicesSection';
+import LocationSection from './components/LocationSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router> {/* Agrega el componente Router */}
-      <div>
-        <Header />
-        <Main />
-        <Footer />
-      </div>
-    </Router>
+    <div>
+      <Header />
+      <HeroSection />
+      <PetShopSection />
+      <ServicesSection />
+      <LocationSection />
+      <Footer />
+    </div>
   );
 }
 
