@@ -2,7 +2,7 @@
 
 :root {
   --text-01: #FFFFFF;
-  --light-01: #242C41;
+  --light-01: #2B2B3D;
   --light-02: #FFFFFF;
   --brand-01: #000000;
   --brand-02: #FFFFFF;
@@ -219,21 +219,29 @@ footer {
 }
 
 section.hero {
-  height: 600px; /* Altura deseada */
-  background: var(--brand-02) url('https://ouch-cdn2.icons8.com/hxxz5Qr551KY1597yq-mz9zWRTkAT-cob5eZ8UreBBo/rs:fit:368:338/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzcy/L2UxYjU4YWUwLTc3/YjQtNGQ1OC05NjJl/LWUzODQ1Y2IyYzBi/Ny5wbmc.png') no-repeat center right;
+  height: 100vh; /* Utiliza la altura completa de la ventana */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  grid-gap: 48px;
+  align-items: center;
 }
 
+/* Estilo para los títulos dentro de la sección hero */
 section.hero h1 {
-  font-size: var(--hero-text);
-  font-weight: 600;
-  line-height: 1.2;
-  width: 40%;
-  color: var(--text-01);
+  color: var(--brand-02);
+}
+
+/* Estilo para los botones dentro de la sección hero */
+section.hero .btn-group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px; /* Ajusta según sea necesario */
+}
+
+/* Estilo para los botones dentro de la sección hero */
+section.hero .btn-group button {
+  margin-right: 10px; /* Ajusta según sea necesario */
+  /* Añade cualquier otro estilo necesario para los botones */
 }
 
 .card-med {
