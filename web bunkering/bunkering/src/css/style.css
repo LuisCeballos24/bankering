@@ -218,11 +218,9 @@ nav > #utility {
   height: 80%;
 }
 
-section,
-footer {
-  position: relative;
-  width: 100%;
-  padding: 0 var(--pg-margin);
+/* Cambiar el color del texto a negro en la sección hero */
+.section.hero h1 {
+  color: #000000; /* Color negro */
 }
 
 .section.hero {
@@ -469,6 +467,12 @@ button.btn-filled-dark {
 }
 
 #locate > div {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 700;
+  color: rgb(239, 176, 15);
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+
   background: var(--brand-02);
   display: flex;
   flex-direction: column;
@@ -495,7 +499,6 @@ button.btn-filled-dark {
   width: 50%;
   text-align: center;
 }
-
 .btn-group {
   display: flex;
   flex-direction: row;
@@ -503,35 +506,92 @@ button.btn-filled-dark {
 }
 
 footer {
-  background: var(--text-01);
-  padding: 80px 80px 0px;
-  margin-top: 80px;
+  background: var(--brand-02);
   display: flex;
+  justify-content: space-around; /* Distribuye los elementos a lo largo del contenedor */
+  align-items: center;
+  padding: 80px 0;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  transition: var(--hover-timing);
+  cursor: pointer;
+  margin-top: 80px;
+  color :#000000;
+}
+
+footer:hover {
+  box-shadow: var(--card-hover);
+  color :#000000;
+}
+
+footer h4 {
+  margin-top: 0;
+  color :#000000;
 }
 
 footer ul {
-  display: flex;
-  flex-direction: column;
-  grid-gap: 24px;
-  box-shadow: none;
-  flex: 1;
-  color: var(--light-01);
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 80px;
-}
-
-footer ul li a {
-  color: var(--light-01);
-  text-decoration: none;
-  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  text-align: center;
+  color :#000000;
 }
 
 footer ul li {
-  color: var(--light-01);
-  padding: 0;
+  list-style-type: none;
+  margin: 8px 0;
+  font-size: 16px;
+  color: var(--text-01);
+  position: relative;
+  display: inline-block; /* Muestra los elementos en línea uno al lado del otro */
+  margin-right: 20px;
+  color :#000000; /* Espaciado entre elementos, ajusta según sea necesario */
 }
 
+footer ul li::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--brand-01);
+  transition: width 0.3s ease-in-out;
+  transform: translateX(-50%);
+  color :#000000;
+}
+
+footer ul li:hover::before {
+  width: 100%;
+  color :#000000;
+}
+
+footer ul ul li {
+  font-size: 14px;
+  color :#000000;
+}
+
+footer ul li a {
+  color: var(--text-01);
+  text-decoration: none;
+  font-size: 14px;
+  color :#000000;
+}
+
+footer button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 12px 24px;
+  border-radius: 48px;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: var(--hover-timing);
+  color :#000000;
+}
 ul.shop-pets li {
   background: var(--brand-02);
   display: flex;

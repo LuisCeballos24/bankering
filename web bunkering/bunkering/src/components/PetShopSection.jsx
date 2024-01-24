@@ -4,15 +4,15 @@ import React from 'react';
 function PetShopSection() {
   return (
     <section>
-      <h2>Shop by Pet</h2>
+      <h2>BUNKERING</h2>
 
       <ul className="shop-pets">
         <li className="card-large card-light" id="sup-dog">
           <div className="card-image">
-            <img src="/Captura de pantalla 2024-01-22 182533.png" />
+            <img src="/image1.jpg" />
           </div>
           <ul>
-            Dogs
+           International Bunkering
             <li><a href="#">Food &amp; Treats</a></li>
             <li><a href="#">Toys</a></li>
             <li><a href="#">Beds &amp; Furniture</a></li>
@@ -25,9 +25,9 @@ function PetShopSection() {
 
         <li className="card-large card-dark" id="sup-cat">
           <div className="card-image">
-            <img src="/Captura de pantalla 2024-01-22 182439.png" />
+            <img src="/image2.jpg" />
           </div>
-          <ul>Cats
+          <ul>Domestic Bunkering
             <li><a href="#">Food &amp; Treats</a></li>
             <li><a href="#">Toys</a></li>
             <li><a href="#">Beds &amp; Furniture</a></li>

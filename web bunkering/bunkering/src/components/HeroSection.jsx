@@ -45,7 +45,6 @@ function HeroSection() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <h1>Your One-Stop Shop for Every Pet's Needs!</h1>
       <div className="btn-group">
         <button className="btn-filled-dark">
           <span className="material-symbols-outlined">shopping_cart</span> Shop All Products

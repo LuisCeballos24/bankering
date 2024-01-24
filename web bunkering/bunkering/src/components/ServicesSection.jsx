@@ -9,7 +9,7 @@ function ServicesSection() {
       <ul className="services">
         <li className="card-large card-dark card-wide" id="serv-groom">
           <div className="card-image">
-            <img src="https://ouch-cdn2.icons8.com/T11rfGmMKgcStJyAFKNgtOfE79cadabx0DVMnvzA9Pk/rs:fit:368:313/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNDQx/LzFlYWU4MWY3LWQ1/ZjYtNDM2Ny1hZjM5/LWVmNTFmMGM5Njk4/MS5wbmc.png" />
+            <img src="image4.jpg" />
           </div>
           <ul>
             Dog Grooming<span className="subtitle">Tail-wagging transformations are our specialty.</span>
@@ -25,7 +25,7 @@ function ServicesSection() {
 
         <li className="card-large card-dark card-wide" id="serv-board">
           <div className="card-image">
-            <img src="https://ouch-cdn2.icons8.com/F5Ea1suZtMYimKDkJr0CJLO_1bju6-bTyT1EuDKEg8s/rs:fit:368:254/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjcx/LzVjMzE4NWM0LWZh/NTMtNGQ1OS05ZTM2/LTZjYzBhNGU3ODg0/NC5wbmc.png" />
+            <img src="image5.jpg" />
           </div>
           <ul>
             Dog Boarding<span className="subtitle">Where fun and care never take a day off.</span>

@@ -1,39 +1,50 @@
-// Footer.js
 import React from 'react';
 
 function Footer() {
   return (
     <footer>
-      <ul>
-        Products
-        <li><a href="#">Food &amp; Treats</a></li>
-        <li><a href="#">Toys</a></li>
-        <li><a href="#">Beds &amp; Furniture</a></li>
-        <li><a href="#">Outdoor Supplies</a></li>
-        <li><a href="#">Clothing</a></li>
-        <li><a href="#">Aquariums</a></li>
-        <li><a href="#">Rocks &amp; Decorations</a></li>
-      </ul>
+      <section>
+        <h4>About Us</h4>
+        <ul>
+          <li>Our Story</li>
+          <li>Our Timeline</li>
+          <li>Our Management</li>
+          <li>Our Team</li>
+          <li>Our Locations</li>
+          <ul>
+            <li>Colombo Office</li>
+            <li>UAE Office</li>
+            <li>Singapore Office</li>
+          </ul>
+        </ul>
+      </section>
 
-      <ul>
-        Shop by Pet
-        <li><a href="#">Dogs</a></li>
-        <li><a href="#">Cats</a></li>
-        <li><a href="#">Birds</a></li>
-        <li><a href="#">Fish</a></li>
-      </ul>
+      <section>
+        <h4>Products</h4>
+        <ul>
+          <li>Our Products</li>
+          <li>Follow us on social media</li>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Linkedin</a></li>
+          </ul>
+        </ul>
+      </section>
 
-      <ul>
-        Our Services
-        <li><a href="#">Grooming</a></li>
-        <li><a href="#">Boarding</a></li>
-      </ul>
-
-      <ul>
-        Our Company
-        <li><a href="#">Locations &amp; Hours</a></li>
-        <li><a href="#">About Us</a></li>
-      </ul>
+      <section>
+        <h4>Contact us on</h4>
+        <address>
+          H. Zoneriya, 7th floor,<br />
+          Boduthakurufaanu Magu, Malé<br />
+          20057, Republic of Maldives<br />
+          Contact: 00960 3344949<br />
+          Email: info@thehawks.biz<br />
+        </address>
+        <button>Inquire</button>
+      </section>
     </footer>
   );
 }
