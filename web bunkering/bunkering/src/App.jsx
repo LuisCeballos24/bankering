@@ -12,8 +12,8 @@ function App() {
       <Header />
       <HeroSection />
       <PetShopSection />
-      <ServicesSection />
       <LocationSection />
+      <ServicesSection />
       <Footer />
     </div>
   );
