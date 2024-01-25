@@ -1,0 +1,22 @@
+
+
+@media (max-width: 650px) {
+    .infoSoporte {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); /* Una columna que ocupa el 100% del ancho */
+      }
+      footer {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); /* Una columna que ocupa el 100% del ancho */
+      }
+}
+@media (max-width: 900px) {
+    .infoSoporte {
+        grid-template-columns: repeat(auto-fill, minmax(49%, 2fr)); /* Una columna que ocupa el 100% del ancho */
+      }
+      footer {
+        width: 100%;
+        grid-template-columns: repeat(auto-fill, minmax(49%, 2fr)); /* Una columna que ocupa el 100% del ancho */
+      }
+      footer div{
+        padding: 5% 0.5%;
+      }
+  }
