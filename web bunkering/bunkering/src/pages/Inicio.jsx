@@ -1,15 +1,12 @@
 import React from 'react'
 
-import HeroSection from '../components/HeroSection'
-import PetShopSection from '../components/PetShopSection'
-import LocationSection from '../components/LocationSection'
-import ServicesSection from '../components/ServicesSection'
+import Carousel from '../components/Carousel'
 import InfoSoporte from '../components/InfoSoporte'
 
 function index() {
   return (
     <div>
-      <HeroSection />
+      <Carousel />
       <InfoSoporte />
     </div>
   )
