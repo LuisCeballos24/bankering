@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Have a question? call us now",
+        "information": "Office 1: (+507) 314-0714",
+        "image": "/iconos/telefono.svg"
+    },
+    {
+        "id": 2,
+        "title": "Need support? Drop us an email",
+        "information": "sales@stwards.com",
+        "image": "/iconos/correo.svg"
+    },
+    {
+        "id": 3,
+        "title": "We are open on",
+        "information": "24/7",
+        "image": "/iconos/reloj.svg"
+    }
+]

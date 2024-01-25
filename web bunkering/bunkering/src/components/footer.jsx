@@ -1,52 +1,71 @@
-import React from 'react';
+import React from 'react'
+import logo from '/Logo.jpg'
+import ChinaCarguero from '/cuadradas/China-carguero-Cosco.jpg'
+import YateEnVenta from '/cuadradas/Yate-en-venta.jpg'
+import RedesSociales from './RedesSociales'
+import DerechosReservados from './DerechosReservados'
 
-function Footer() {
+function footer() {
   return (
-    <footer>
-      <section>
-        <h4>About Us</h4>
-        <ul>
-          <li>Our Story</li>
-          <li>Our Timeline</li>
-          <li>Our Management</li>
-          <li>Our Team</li>
-          <li>Our Locations</li>
+    <>
+      <footer>
+        <div className='footerLogo'>
+          <img src={logo} alt="" />
+          <p>Stward Corporation was founded on September 2002, with the purpose of becoming the leading company in Panama Maritime sector.</p>
+        </div>
+        <div className='otrosEnlaces'>
+          <h5>Otros Enlaces</h5>
           <ul>
-            <li>Colombo Office</li>
-            <li>UAE Office</li>
-            <li>Singapore Office</li>
+            <li><a href='#'>Catálogo</a></li>
+            <li><a href='#'>Compromiso</a></li>
+            <li><a href='#'>Ubicación</a></li>
           </ul>
-        </ul>
-      </section>
-
-      <section>
-        <h4>Products</h4>
-        <ul>
-          <li>Our Products</li>
-          <li>Follow us on social media</li>
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Youtube</a></li>
-            <li><a href="#">Linkedin</a></li>
-          </ul>
-        </ul>
-      </section>
-
-      <section>
-        <h4>Contact us on</h4>
-        <address>
-          H. Zoneriya, 7th floor,<br />
-          Boduthakurufaanu Magu, Malé<br />
-          20057, Republic of Maldives<br />
-          Contact: 00960 3344949<br />
-          Email: info@thehawks.biz<br />
-        </address>
-        <button>Inquire</button>
-      </section>
-    </footer>
-  );
+        </div>
+        <div className='postsRecientes'>
+          <h5>Posts Recientes</h5>
+          <section>
+            <img src={ChinaCarguero} alt="" />
+            <div>
+              <h6>Diciembre 21, 2023</h6>
+              <p>Stward is getting ready to launch its highly...</p>
+            </div>
+          </section>
+          <section>
+            <img src={YateEnVenta} alt="" />
+            <div>
+              <h6>Diciembre 18, 2023</h6>
+              <p>Mother's Day Celebration at Stward Corporation</p>
+            </div>
+          </section>
+        </div>
+        <div className='footerContactos'>
+          <section>
+            <h5>Contat us 24 hours:</h5>
+            <p>Office 1: (+507) 314-0714</p>
+          </section>
+          <section>
+            <h5>Launch Service:</h5>
+            <p>
+              sales@brisasenterprises.com
+              (+507) 6922-8340
+            </p>
+          </section>
+          <section>
+            <h5>Bunkering Service:</h5>
+            <p>
+              sales@brisasenterprises.com
+              sales@brisasenterprises.com
+              (+507) 6679-1225
+            </p>
+          </section>
+          <section className='sectionFooterRedesSociales'>
+            <RedesSociales />
+          </section>
+        </div>
+      </footer>
+      <DerechosReservados />
+    </>
+  )
 }
 
-export default Footer;
+export default footer

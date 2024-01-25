@@ -1,60 +1,57 @@
-import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap // Importa tu archivo de estilos personalizado
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import '../css/Carousel.css'; // Crea este archivo para los estilos
 
-// Importa las imágenes directamente
-import yateImage from '/Yate.jpg';
-import image1 from '/image1.jpg';
-import image2 from '/image2.jpg';
-import image3 from '/image3.jpg';
+const imagesData = [
+  {
+    title: 'Imagen 1',
+    description: 'Descripción de la Imagen 1',
+    imageUrl: 'http://localhost:5173/image1.jpg',
+  },
+  {
+    title: 'Imagen 2',
+    description: 'Descripción de la Imagen 2',
+    imageUrl: 'http://localhost:5173/image2.jpg',
+  },
+  {
+    title: 'Imagen 3',
+    description: 'Descripción de la Imagen 3',
+    imageUrl: 'http://localhost:5173/image3.jpg',
+  },
+  {
+    title: 'Imagen 4',
+    description: 'Descripción de la Imagen 4',
+    imageUrl: 'http://localhost:5173/image4.jpg',
+  },
+  // Añade más objetos para más imágenes
+];
 
-const images = [yateImage, image1, image2, image3];
-
-function HeroSection() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextSlide = () => {
-    const newIndex = (currentIndex + 1) % images.length;
-    setCurrentIndex(newIndex);
-  };
-
-  const prevSlide = () => {
-    const newIndex = (currentIndex - 1 + images.length) % images.length;
-    setCurrentIndex(newIndex);
+const Carousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000
   };
 
   return (
-    <section className="hero">
-      <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-          {images.map((image, index) => (
-            <div key={index} className={`carousel-item ${index === currentIndex ? 'active' : ''}`}>
-              <img
-                src={image}
-                className="d-block w-100 img-fluid"
-                alt={`Slide ${index + 1}`}
-              />
-            </div>
-          ))}
+    <Slider {...settings}>
+      {imagesData.map((image, index) => (
+        <div key={index} className="carousel-item">
+          <img src={image.imageUrl} alt={image.title} />
+          <div className="overlay">
+            <div className="title">{image.title}</div>
+            <div className="description">{image.description}</div>
+          </div>
         </div>
-        <button className="carousel-control-prev" type="button" onClick={prevSlide}>
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" onClick={nextSlide}>
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
-      <div className="btn-group">
-        <button className="btn-filled-dark">
-          <span className="material-symbols-outlined">shopping_cart</span> Shop All Products
-        </button>
-        <button className="btn-outline-dark btn-hover-color">
-          <span className="material-symbols-outlined">calendar_month</span> Book a Service
-        </button>
-      </div>
-    </section>
+      ))}
+    </Slider>
   );
-}
+};
 
-export default HeroSection;
+export default Carousel;
