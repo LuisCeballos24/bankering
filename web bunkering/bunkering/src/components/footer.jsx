@@ -4,6 +4,7 @@ import ChinaCarguero from '/cuadradas/China-carguero-Cosco.jpg'
 import YateEnVenta from '/cuadradas/Yate-en-venta.jpg'
 import RedesSociales from './RedesSociales'
 import DerechosReservados from './DerechosReservados'
+import { Link } from 'react-router-dom'
 
 function footer() {
   return (
@@ -16,9 +17,9 @@ function footer() {
         <div className='otrosEnlaces'>
           <h5>Otros Enlaces</h5>
           <ul>
-            <li><a href='#'>Catálogo</a></li>
-            <li><a href='#'>Compromiso</a></li>
-            <li><a href='#'>Ubicación</a></li>
+            <li><Link to="#">Catálogo</Link></li>
+            <li><Link to="#">Compromiso</Link></li>
+            <li><Link to="#">Ubicación</Link></li>
           </ul>
         </div>
         <div className='postsRecientes'>

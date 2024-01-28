@@ -18,12 +18,12 @@ const Carousel = () => {
 
   return (
     <Slider {...settings}>
-      {infoCarousel.map((image, index) => (
+      {infoCarousel.map((i, index) => (
         <div key={index} className="carousel-item">
-          <img src={'http://localhost:5173'+image.image} alt={image.title} />
+          <img src={i.image} alt={i.title} />
           <div className="overlay">
-            <div className="title">{image.title}</div>
-            <div className="description">{image.information}</div>
+            <div className="title">{i.title}</div>
+            <div className="description">{i.information}</div>
           </div>
         </div>
       ))}

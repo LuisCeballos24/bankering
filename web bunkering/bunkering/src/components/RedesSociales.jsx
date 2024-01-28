@@ -10,10 +10,10 @@ function RedesSociales() {
   return (
     <div className='headerRedesSociales'>
         <ul>
-        <a href='#' ><FontAwesomeIcon icon={faFacebook} /></a>
-        <a href='#' ><FontAwesomeIcon icon={faInstagram} /></a>
-        <a href='#' ><FontAwesomeIcon icon={faXTwitter} /></a>
-        <a href='#' ><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a href='#' target='_blank' ><FontAwesomeIcon icon={faFacebook} /></a>
+        <a href='#' target='_blank' ><FontAwesomeIcon icon={faInstagram} /></a>
+        <a href='#' target='_blank' ><FontAwesomeIcon icon={faXTwitter} /></a>
+        <a href='#' target='_blank' ><FontAwesomeIcon icon={faLinkedin} /></a>
         </ul>
     </div>
   )

@@ -7,7 +7,7 @@ function InfoSoporte() {
         {
             Soporte.map(s => (
                 <div key={s.id} className='cardInfoSoporte'>
-                    <img src={'http://localhost:5173'+s.image} alt={s.title} />
+                    <img src={s.image} alt={s.title} />
                     <h4>{s.title}</h4>
                     <p>{s.information}</p>
                 </div>
