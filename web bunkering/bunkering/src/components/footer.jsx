@@ -42,13 +42,13 @@ function footer() {
         <div className='footerContactos'>
           <section>
             <h5>Contat us 24 hours:</h5>
-            <p>Office 1: (+507) 314-0714</p>
+            <p>Office 1: (+507) XXX-XXXX</p>
           </section>
           <section>
             <h5>Launch Service:</h5>
             <p>
               sales@brisasenterprises.com
-              (+507) 6922-8340
+              (+507) XXX-XXXX
             </p>
           </section>
           <section>
@@ -56,7 +56,7 @@ function footer() {
             <p>
               sales@brisasenterprises.com
               sales@brisasenterprises.com
-              (+507) 6679-1225
+              (+507) XXX-XXXX
             </p>
           </section>
           <section className='sectionFooterRedesSociales'>

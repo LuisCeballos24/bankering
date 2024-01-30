@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function InfoFotoDerecha(props) {
   return (
-    <div className='infoFotoIzquierda'>
+    <div className='infoFotoIzquierda infoFotoIzquierda2'>
         <section className='seccionInfoFotoIzq2'>
             <h3>{props.title}</h3>
             <p>{props.desc}</p>

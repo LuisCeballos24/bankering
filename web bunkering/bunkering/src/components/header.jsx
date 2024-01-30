@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '/Logo.jpg'
 import RedesSociales from './RedesSociales'
 import { Link } from 'react-router-dom'
+import Hamburguesa from './Hamburguesa'
 
 
 function Header() {
@@ -17,6 +18,7 @@ function Header() {
           <li><Link to="#">Contacto</Link></li>
         </ul>
         <RedesSociales />
+        <Hamburguesa />
       </div>
     </div>
   )

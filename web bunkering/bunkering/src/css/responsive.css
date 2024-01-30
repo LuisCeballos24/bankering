@@ -1,22 +1,65 @@
-
+@media (max-width: 900px) {
+  .infoSoporte {
+    grid-template-columns: repeat(auto-fill, minmax(49%, 2fr));
+  }
+  .headerSecciones{
+    display: none !important;
+  }
+  .headerRedesSociales ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .hamburguesa{
+    display: block !important;
+  }
+  .offcanvas h6{
+    padding: 5% 15%;
+    text-align: center;
+  }
+  .offcanvas .headerRedesSociales{
+    margin-bottom: 10%;
+  }
+  footer {
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(49%, 2fr));
+  }
+  footer div {
+    padding: 5% 0.5%;
+  }
+}
 
 @media (max-width: 650px) {
-    .infoSoporte {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); /* Una columna que ocupa el 100% del ancho */
-      }
-      footer {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); /* Una columna que ocupa el 100% del ancho */
-      }
-}
-@media (max-width: 900px) {
-    .infoSoporte {
-        grid-template-columns: repeat(auto-fill, minmax(49%, 2fr)); /* Una columna que ocupa el 100% del ancho */
-      }
-      footer {
-        width: 100%;
-        grid-template-columns: repeat(auto-fill, minmax(49%, 2fr)); /* Una columna que ocupa el 100% del ancho */
-      }
-      footer div{
-        padding: 5% 0.5%;
-      }
+  .infoSoporte {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   }
+  footer {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .infoFotoIzquierda {
+    display: block;
+    transition: none;
+    margin: 10% 0 0 0;
+  }
+  .infoFotoIzquierda:hover img {
+    transform: scale(1);
+    opacity: 100%;
+  }
+  .seccionInfoFotoIzq2 a{
+    opacity: 1;
+    left: 0%;
+  }
+  .infoFotoIzquierda2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column-reverse;
+  }
+  /* .infoFotoIzquierda:hover {
+    display: block;
+  } */
+}
