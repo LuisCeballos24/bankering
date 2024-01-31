@@ -13,7 +13,7 @@ function Header() {
         <h2>Las Brisas</h2>
         <ul className='headerSecciones'>
           <li><Link to="#">Catálogo</Link></li>
-          <li><Link to="#">Compromiso</Link></li>
+          <li><Link to="/compromiso">Compromiso</Link></li>
           <li><Link to="#">Ubicación</Link></li>
           <li><Link to="#">Contacto</Link></li>
         </ul>
