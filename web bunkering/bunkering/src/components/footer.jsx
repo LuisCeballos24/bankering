@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 function footer() {
   return (
     <>
-      <footer>
+      <footer id='footer'>
         <div className='footerLogo'>
           <img src={logo} alt="" />
           <p>Stward Corporation was founded on September 2002, with the purpose of becoming the leading company in Panama Maritime sector.</p>

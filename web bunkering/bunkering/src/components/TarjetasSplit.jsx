@@ -7,12 +7,12 @@ function TarjetasSplit() {
         <h2>Nuestro Compromiso</h2>
       </div>
       <div className="rectangulo">
-        <div class="card">
-          <h3 class="title">Mision</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
-            <div class="texto">
+        <div className="card">
+          <h3 className="title">Mision</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
+            <div className="texto">
               <p>
                 Cumplir con todos los requerimientos exigidos por nuestros
                 clientes; nuestra prioridad proveer productos de alta calidad,
@@ -23,12 +23,12 @@ function TarjetasSplit() {
           </div>
         </div>
 
-        <div class="card">
-          <h3 class="title">Vision</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
-            <div class="texto">
+        <div className="card">
+          <h3 className="title">Vision</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
+            <div className="texto">
               <p>
                 Ser una empresa con un modelo inspirador reconocido por nuestros
                 clientes, proveedores y la comunidad, integrando el talento
@@ -39,12 +39,12 @@ function TarjetasSplit() {
           </div>
         </div>
 
-        <div class="card">
-          <h3 class="title">Valores</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
-            <div class="texto">
+        <div className="card">
+          <h3 className="title">Valores</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
+            <div className="texto">
               <p>
                 A través de nuestra experiencia, atender a nuestros clientes
                 cumpliendo con los mayores estándares de calidad.
@@ -53,24 +53,18 @@ function TarjetasSplit() {
           </div>
         </div>
 
-        <div class="card">
-          <h3 class="title">Objetivos</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
-            <div class="texto">
-              <h6 className="textoLista">
-                Sentido de pertenencia 
-              </h6>
-              <h6 className="textoLista">
-                Conocimientos
-              </h6>
-              <h6 className="textoLista">
-                Calidad del Servicio al cliente
-              </h6>
-              <h6 className="textoLista">
-                Seguridad
-              </h6>
+        <div className="card">
+          <h3 className="title">Objetivos</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
+            <div className="texto">
+              <ul>
+                <li>Sentido de pertenencia </li>
+                <li>Conocimientos</li>
+                <li>Calidad del Servicio al cliente</li>
+                <li>Seguridad</li>
+              </ul>
             </div>
           </div>
         </div>

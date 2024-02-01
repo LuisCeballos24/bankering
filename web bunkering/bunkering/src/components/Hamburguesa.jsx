@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Nav, Navbar, Offcanvas } from 'react-bootstrap';
+import { Nav, Offcanvas } from 'react-bootstrap';
 import RedesSociales from './RedesSociales';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faLocation, faLocationArrow, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { HashLink } from 'react-router-hash-link';
 
 const Hamburguesa = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -20,11 +21,11 @@ const Hamburguesa = () => {
           <Offcanvas.Title>Las Brisas</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <Nav className="flex-column">
-            <Nav.Link href="#Catálogo">Catálogo</Nav.Link>
-            <Nav.Link href="#Compromiso">Compromiso</Nav.Link>
-            <Nav.Link href="#Ubicación">Ubicación</Nav.Link>
-            <Nav.Link href="#Contacto">Contacto</Nav.Link>
+          <Nav className="flex-column gap-4">
+            <HashLink smooth to="/#catalogo">Catálogo</HashLink>
+            <HashLink smooth to="/compromiso">Compromiso</HashLink>
+            <HashLink smooth to="/#footer">Ubicación</HashLink>
+            <HashLink smooth to="/#contacto">Contacto</HashLink>
           </Nav>
         </Offcanvas.Body>
         <h6><FontAwesomeIcon icon={faLocationDot} /> Bella Vista, Hi Point building, 24ht Floor, Panama.<br />Copyright © 2024 Stward Corporation</h6>

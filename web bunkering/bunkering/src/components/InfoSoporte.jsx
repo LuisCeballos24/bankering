@@ -3,7 +3,7 @@ import Soporte from '../json/Soporte.json'
 
 function InfoSoporte() {
   return (
-    <div className='infoSoporte'>
+    <div className='infoSoporte' id="contacto">
         {
             Soporte.map(s => (
                 <div key={s.id} className='cardInfoSoporte'>

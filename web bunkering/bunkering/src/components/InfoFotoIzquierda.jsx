@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function InfoFotoIzquierda(props) {
   return (
-    <div className='infoFotoIzquierda'>
+    <div className='infoFotoIzquierda' id="catalogo">
         <section className='seccionInfoFotoIzq'>
             <img src={props.image} alt="" />
         </section>
