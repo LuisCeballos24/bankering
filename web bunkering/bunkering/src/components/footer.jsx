@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '/Logo.jpg'
+import logo from '/Logo.png'
 import ChinaCarguero from '/cuadradas/China-carguero-Cosco.jpg'
 import YateEnVenta from '/cuadradas/Yate-en-venta.jpg'
 import RedesSociales from './RedesSociales'
@@ -12,7 +12,7 @@ function footer() {
       <footer id='footer'>
         <div className='footerLogo'>
           <img src={logo} alt="" />
-          <p>Stward Corporation was founded on September 2002, with the purpose of becoming the leading company in Panama Maritime sector.</p>
+          <p>Brisas Corporation was founded on September, with the purpose of becoming the leading company in Panama Maritime sector.</p>
         </div>
         <div className='otrosEnlaces'>
           <h5>Otros Enlaces</h5>

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '/Logo.jpg'
+import logo from '/Logo.png'
 import RedesSociales from './RedesSociales'
 import Hamburguesa from './Hamburguesa'
 import { HashLink } from 'react-router-hash-link'

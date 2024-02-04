@@ -28,7 +28,7 @@ const Hamburguesa = () => {
             <HashLink smooth to="/#contacto">Contacto</HashLink>
           </Nav>
         </Offcanvas.Body>
-        <h6><FontAwesomeIcon icon={faLocationDot} /> Bella Vista, Hi Point building, 24ht Floor, Panama.<br />Copyright © 2024 Stward Corporation</h6>
+        <h6><FontAwesomeIcon icon={faLocationDot} /> Bella Vista, Hi Point building, 24ht Floor, Panama.<br />Copyright © 2024 Brisas Corporation</h6>
         <RedesSociales />
       </Offcanvas>
     </div>
