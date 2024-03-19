@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 function InfoFotoDerecha(props) {
   return (
@@ -9,7 +10,7 @@ function InfoFotoDerecha(props) {
         <section className='seccionInfoFotoIzq2'>
             <h3>{props.title}</h3>
             <p>{props.desc}</p>
-            <Link to={props.to}>Inquire<span><FontAwesomeIcon icon={faArrowRight} /></span></Link>
+            <HashLink smooth to="/#contacto">Inquire<span><FontAwesomeIcon icon={faArrowRight} /></span></HashLink>
         </section>
         <section className='seccionInfoFotoIzq'>
             <img src={props.image} alt="" />

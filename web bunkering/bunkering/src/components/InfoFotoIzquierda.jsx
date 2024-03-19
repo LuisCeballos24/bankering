@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 function InfoFotoIzquierda(props) {
   return (
@@ -12,7 +12,7 @@ function InfoFotoIzquierda(props) {
         <section className='seccionInfoFotoIzq2'>
             <h3>{props.title}</h3>
             <p>{props.desc}</p>
-            <Link to={props.to}>Inquire<span><FontAwesomeIcon icon={faArrowRight} /></span></Link>
+            <HashLink smooth to="/#contacto">Inquire<span><FontAwesomeIcon icon={faArrowRight} /></span></HashLink>
         </section>
     </div>
   )

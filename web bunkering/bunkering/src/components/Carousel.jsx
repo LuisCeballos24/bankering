@@ -23,7 +23,6 @@ const Carousel = () => {
           <img src={i.image} alt={i.title} />
           <div className="overlay">
             <div className="title">{i.title}</div>
-            <div className="description">{i.information}</div>
           </div>
         </div>
       ))}

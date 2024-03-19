@@ -5,6 +5,7 @@ import YateEnVenta from '/cuadradas/Yate-en-venta.jpg'
 import RedesSociales from './RedesSociales'
 import DerechosReservados from './DerechosReservados'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 function footer() {
   return (
@@ -17,9 +18,10 @@ function footer() {
         <div className='otrosEnlaces'>
           <h5>Otros Enlaces</h5>
           <ul>
-            <li><Link to="#">Catálogo</Link></li>
-            <li><Link to="#">Compromiso</Link></li>
-            <li><Link to="#">Ubicación</Link></li>
+          <li><HashLink smooth to="/#catalogo" >Catalogue</HashLink></li>
+          <li><HashLink to="/compromiso" >About us</HashLink></li>
+          <li><HashLink smooth to="/#footer">location</HashLink></li>
+          <li><HashLink smooth to="/#contacto">contact</HashLink></li>
           </ul>
         </div>
         <div className='postsRecientes'>

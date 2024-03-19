@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "title": "Imagen 1",
-        "information": "Descripción de la Imagen 1",
+        "title": "cruise",
+        "information": "cruise",
         "image": "/carousel/imagen1.jpeg"
     },
     {
         "id": 2,
-        "title": "Imagen 2",
-        "information": "Descripción de la Imagen 2",
+        "title": "cargo ship",
+        "information": "cargo ship",
         "image": "/carousel/imagen2.jpeg"
     },
     {
         "id": 3,
-        "title": "Imagen 3",
-        "information": "Descripción de la Imagen 3",
+        "title": "yacht",
+        "information": "yacht",
         "image": "/carousel/imagen3.png"
     },
     {
         "id": 4,
-        "title": "Imagen 4",
-        "information": "Descripción de la Imagen 4",
+        "title": "cargo ship",
+        "information": "cargo ship",
         "image": "/carousel/imagen4.png"
     },
     {
         "id": 4,
-        "title": "Imagen 5",
-        "information": "Descripción de la Imagen 5",
+        "title": "cruise",
+        "information": "cruise",
         "image": "/carousel/imagen5.png"
     }
 ]
