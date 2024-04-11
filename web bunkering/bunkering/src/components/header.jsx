@@ -12,7 +12,6 @@ function Header() {
       <div>
         <HashLink smooth to="/" ><img src={logo} alt="Logo de Las Brisas" /></HashLink>
         
-        <h2>Las Brisas</h2>
         <ul className='headerSecciones'>
           <li><HashLink smooth to="/#catalogo" >Catalogue</HashLink></li>
           <li><HashLink to="/compromiso" >About us</HashLink></li>

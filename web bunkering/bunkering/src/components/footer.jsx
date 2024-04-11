@@ -4,7 +4,6 @@ import ChinaCarguero from '/cuadradas/China-carguero-Cosco.jpg'
 import YateEnVenta from '/cuadradas/Yate-en-venta.jpg'
 import RedesSociales from './RedesSociales'
 import DerechosReservados from './DerechosReservados'
-import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 
 function footer() {
@@ -44,13 +43,13 @@ function footer() {
         <div className='footerContactos'>
           <section>
             <h5>Contat us 24 hours:</h5>
-            <p>Office 1: (+507) XXX-XXXX</p>
+            <p>Office 1: (+507) 6679-1225</p>
           </section>
           <section>
             <h5>Launch Service:</h5>
             <p>
               sales@brisasenterprises.com
-              (+507) XXX-XXXX
+              (+507) 6679-1225
             </p>
           </section>
           <section>
@@ -58,7 +57,7 @@ function footer() {
             <p>
               sales@brisasenterprises.com
               sales@brisasenterprises.com
-              (+507) XXX-XXXX
+              (+507) 6679-1225
             </p>
           </section>
           <section className='sectionFooterRedesSociales'>

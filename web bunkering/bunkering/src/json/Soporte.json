@@ -2,13 +2,13 @@
     {
         "id": 1,
         "title": "Have a question? call us now",
-        "information": "Office 1: (+507) XXX-XXXX",
+        "information": "Office 1: (+507) 6679-1225",
         "image": "/iconos/telefono.svg"
     },
     {
         "id": 2,
         "title": "Need support? Drop us an email",
-        "information": "sales@lasbrisas.com",
+        "information": "sales@brisasenterprises.com",
         "image": "/iconos/correo.svg"
     },
     {
