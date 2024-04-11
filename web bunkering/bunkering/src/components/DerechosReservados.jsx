@@ -6,7 +6,7 @@ function DerechosReservados() {
   return (
     <div className='derechosReservados'>
         
-        <p><img src={location} alt="Ícono de Localización" /> Bella Vista, Hi Point building, 24ht Floor, Panama.<br />Copyright © 2024 Stward Corporation</p>
+        <p><img src={location} alt="Ícono de Localización" />OMC CHAMBERS, WICKHAMS CAY 1,ROAD TOWN, TORTOLA, BRITISH VIRGIN ISLANDS<br />Copyright © 2024 Las Brisas Enterprises</p>
     </div>
   )
 }

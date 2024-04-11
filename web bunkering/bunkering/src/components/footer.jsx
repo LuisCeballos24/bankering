@@ -29,27 +29,27 @@ function footer() {
             <img src={ChinaCarguero} alt="" />
             <div>
               <h6>Diciembre 21, 2023</h6>
-              <p>Stward is getting ready to launch its highly...</p>
+              <p>Las Brisas is getting ready to launch its highly...</p>
             </div>
           </section>
           <section>
             <img src={YateEnVenta} alt="" />
             <div>
               <h6>Diciembre 18, 2023</h6>
-              <p>Mother's Day Celebration at Stward Corporation</p>
+              <p>Mother's Day Celebration at Las Brisas Enterprises</p>
             </div>
           </section>
         </div>
         <div className='footerContactos'>
           <section>
             <h5>Contat us 24 hours:</h5>
-            <p>Office 1: (+507) 6679-1225</p>
+            <p>Office 1:(+507)66791225</p>
           </section>
           <section>
             <h5>Launch Service:</h5>
             <p>
               sales@brisasenterprises.com
-              (+507) 6679-1225
+              (+507)66791225
             </p>
           </section>
           <section>
@@ -57,7 +57,7 @@ function footer() {
             <p>
               sales@brisasenterprises.com
               sales@brisasenterprises.com
-              (+507) 6679-1225
+              (+507)66791225
             </p>
           </section>
           <section className='sectionFooterRedesSociales'>
